@@ -1,0 +1,51 @@
+body{
+    background-color: #f5d9d5;
+    font-family: "Nunito", sans-serif;
+
+}
+#mainNavbar {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+#mainNavbar .nav-link{
+    color:black;
+}
+
+#mainNavbar .nav-link:hover{
+    color: #EA1C2C;
+  }
+
+#mainNavbar .navbar-brand{
+  color: #EA1C2C;
+  
+  font-size: 1.5 rem;
+}
+
+#museumHeadind span {
+    color: #EA1C2C;
+}
+
+#museumHeadind h2{
+    color: #EA1C2C;
+    font-size: 2rem;
+}
+#museumHeadind p{
+    color:black; 
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+.content {
+    margin-top: 50px;
+    margin-bottom: 50px ;
+}
+.navbar.scrolled{
+   background: rgb(222, 192, 192);
+   transition: background 1s ;
+}
+
+@media (max-wedth: 1200px){
+    #museumHeadind h1 {
+        font-size: 4rem;
+        font-weight: 100;
+    }
+}
